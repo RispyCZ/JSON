@@ -1,39 +1,64 @@
 {
-  "zaci": [
-    {
-      "jmeno": "David",
-      "prijmeni": "Chlad",
-      "trida": "IT1A"
-    },
-    {
-      "jmeno": "Adam",
-      "prijmeni": "Gyra",
-      "trida": "IT3"
-    },
-    {
-      "jmeno": "Vojtěch",
-      "prijmeni": "Šebek",
-      "trida": "IT4"
-    },
-    {
-      "jmeno": "Matyáš",
-      "prijmeni": "Schuller",
-      "trida": "I1B"
-    },
-    {
-      "jmeno": "Marek",
-      "prijmeni": "Vítr",
-      "trida": "IT1B"
-    },
-    {
-      "jmeno": "Daniel",
-      "prijmeni": "Duda",
-      "trida": "IT2A"
-    },
-    {
-      "jmeno": "David",
-      "prijmeni": "Žitný",
-      "trida": "IT2A"
-    }
-  ]
+    "zaci": [
+        {
+            "jmeno": "David",
+            "prijmeni": "Chlad",
+            "trida": "IT1A"
+        },
+        {
+            "jmeno": "Adam",
+            "prijmeni": "Gyra",
+            "trida": "IT3"
+        },
+        {
+            "jmeno": "Vojtěch",
+            "prijmeni": "Šebek",
+            "trida": "IT4"
+        },
+        {
+            "jmeno": "Matyáš",
+            "prijmeni": "Schuller",
+            "trida": "I1B"
+        },
+        {
+            "jmeno": "Marek",
+            "prijmeni": "Vítr",
+            "trida": "IT1B"
+        },
+        {
+            "jmeno": "Daniel",
+            "prijmeni": "Duda",
+            "trida": "IT2A"
+        },
+        {
+            "jmeno": "David",
+            "prijmeni": "Žitný",
+            "trida": "IT2A"
+        },
+        {
+            "jmeno": "Petr",
+            "prijmeni": "Václavek",
+            "trida": "None"
+        },
+        {
+            "jmeno": "Petr",
+            "prijmeni": "Xd",
+            "trida": "xd"
+        },
+        {
+            "jmeno": "Huh",
+            "prijmeni": "Hah",
+            "trida": ":D"
+        },
+        {
+            "jmeno": "Petr",
+            "prijmeni": "sdsdad",
+            "trida": "šěšěš"
+        },
+        {
+            "jmeno": "No",
+            "prijmeni": ":D",
+            "trida": "XD"
+        }
+    ]
 }
