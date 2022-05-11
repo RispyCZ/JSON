@@ -1,6 +1,7 @@
 import json
 from prettytable import PrettyTable
 
+
 def load_json_file(filename: str):
     f = open(filename, "r", encoding="utf-8")
     data = json.load(f)
@@ -11,10 +12,10 @@ def load_json_file(filename: str):
 def list_json_file(filename: str):
     zaci = load_json_file(filename)
     tabulka = PrettyTable()
-    tabulka.field_names = ["Jméno", "Příjmení", "Třída"]
+    tabulka.field_names = ["ID", "Jméno", "Příjmení", "Třída"]
 
     for zak in zaci["zaci"]:
-        tabulka.add_row([zak["jmeno"], zak["prijmeni"], zak["trida"]])
+        tabulka.add_row([zak["id"], zak["jmeno"], zak["prijmeni"], zak["trida"]])
 
     print(tabulka.get_string())
 
@@ -41,6 +42,8 @@ if __name__ == "__main__":
             case 1:
                 list_json_file("zaci.json")
             case 2:
-                add_to_json_file({"jmeno": input("Jméno: "), "prijmeni": input("Příjmení: "), "trida": input("Třída: ")}, "zaci.json")
-                #add_to_json_file({"jmeno": "Petr", "prijmeni": "Václavek", "trida": "None"}, "zaci.json")
+                add_to_json_file(
+                    {"jmeno": input("Jméno: "), "prijmeni": input("Příjmení: "), "trida": input("Třída: ")},
+                    "zaci.json")
+                # add_to_json_file({"jmeno": "Petr", "prijmeni": "Václavek", "trida": "None"}, "zaci.json")
         print_help()
